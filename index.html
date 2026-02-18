@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>縦スクロールシューティング</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gameContainer">
+  <canvas id="canvas"></canvas>
+  <div id="ui">
+    <div>
+      <div>SCORE: <span id="scoreVal">0</span></div>
+      <div>HI: <span id="hiVal">0</span></div>
+    </div>
+    <div>
+      <div>LEVEL: <span id="levelVal">1</span></div>
+      <div class="lives">LIFE: <span id="livesVal"></span></div>
+    </div>
+  </div>
+  <div id="overlay">
+    <h1>SHOOTING</h1>
+    <p>← → ↑ ↓ / WASD で移動</p>
+    <p>Z / SPACE で射撃</p>
+    <p>X / SHIFT で高速ショット</p>
+    <button id="startBtn">START GAME</button>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

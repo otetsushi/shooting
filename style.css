@@ -45,6 +45,8 @@ canvas {
   text-shadow: 0 0 20px #0ff;
   margin-bottom: 12px;
   letter-spacing: 4px;
+  line-height: 1.3;
+  text-align: center;
 }
 #overlay p {
   font-size: 14px;
